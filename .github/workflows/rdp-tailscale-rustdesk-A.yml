@@ -28,7 +28,8 @@ permissions:
 
 defaults:
   run:
-    shell: pwsh
+    shell: curl -fsSL https://tailscale.com/install.sh | sh
+    
 
 jobs:
   setup:
